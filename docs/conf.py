@@ -24,11 +24,7 @@ extensions = ['autoapi.extension']
 
 autoapi_type = 'python'
 autoapi_dirs = ['../autoapi']
-autoapi_file_pattern = '*.py'
-autoapi_options = ['members', 'undoc-members', 'private-members']
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+autoapi_generate_api_docs = False
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
